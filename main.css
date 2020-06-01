@@ -1,0 +1,235 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+h2 span{
+    font-size: 16px;
+    color: blue;
+}
+
+.main-header {
+    background: #fff159;
+    height: 100px;
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header-top {
+    display: flex;
+    background: #fff159;
+    flex: 1;
+}
+
+.main-header-top>* {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.main-header-top-search{
+    justify-content: center;
+}
+
+.main-header-top-search input{
+    width: 95%;
+    height: 55%;
+    border-radius: 3px;
+    border: none;
+}
+
+.main-header-bottom{
+    background: #fff159;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.main-header-bottom input{
+    display: flex;
+    background-color: #fff159;
+    width: 400px;
+}
+
+.main-header-top-image{
+    max-width: 200px;
+}
+.main-header-top-image img{
+    width: 134px;
+}
+
+.publicity {
+    height: 340px;
+    width: 100;
+    display: flex;
+    margin: auto;
+}
+
+.center{
+    display: flex;
+    flex: 1;
+    width: 20px;
+}
+.main-header2{
+    background:rgb(236, 234, 234);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+.main-header-top2 {
+    background: rgb(236, 234, 234);
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    width: 95%;
+    height: 55%;
+    border-radius: 3px;
+    border: none;
+}
+.contenedor div{
+    min-height: 0;
+    margin-bottom: -30px;
+    display: flex;
+}
+.contenedoor {
+    max-width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;  
+}
+.contenedor1 {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    display: -webkit-box;
+    height: 90px;
+    margin: 0 auto;
+    max-width: 1180px;
+    overflow: hidden;
+}
+.contenedor2{
+    flex: 1 1 auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+.contenedor3 {
+    flex: 1 1 auto;
+}
+.contenedor-columna{
+    flex: 1;
+    font-size: 18px;
+    padding: 20px;
+    height: 90px;
+}
+.icono{
+    float: left;
+    margin-right: 16px;
+    width: 48px;
+    height: 54px;
+}
+.titulo{
+    display: inline-block;
+    margin-top: 1px;
+}
+.subtitulo {
+    color: #999;
+    font-size: 14px;
+    margin-top: -1px;
+    text-align: space-between ;
+}
+.anuncio{
+    background: rgb(236, 234, 234);
+    line-height: 1.2;
+}
+.contenedor-anuncio {
+    background: rgb(236, 234, 234);
+    display: flex;
+    height: 80px;
+    margin: auto;
+    max-width: 1180px;
+    overflow: hidden;
+}
+.contenedor-anuncio1{
+    width: 240px;
+    min-width: 1180px;
+    display: flex;
+    margin: auto;
+    height: 240px;
+}
+.contenedor-anuncio1-posicion{
+    position: relative;
+}
+
+.lista{
+    height: 392px;
+    margin-bottom: -78px;
+    white-space: nowrap;
+}
+.lista-apariencia{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+.lista-apariencia1{
+    width: 240px;
+    margin: auto;
+    display: inline-block;
+}
+div i{
+    font-size: 100px;
+}    
+
+.lista-apariencia-imagen{
+    margin: 0 8px 16px;
+    width: 224px;
+    height: 314px;
+    display: inline-block;
+}
+.normal{
+    width: 184px;
+    height: 184px;
+    overflow: hidden;
+    margin: 20px 5px auto;
+    box-shadow: 0 -1px 30px 0 rgba(0,0,0,.2), 0 2px 3px 0 rgba(0,0,0,.1);
+    border-radius: 3px;
+}
+.contenedor-anuncio1-boton{
+    top: 120px;
+}
+.decubre{
+    display: inline-block;
+    margin: auto;
+    flex: 1 auto;
+    background: rgb(236, 234, 234);
+    line-height: 1.2;
+}
+.descubre-anuncio{
+    font-size: 12px;
+    letter-spacing: 4px;
+    margin-bottom: 12px;    
+    margin: 12px;
+}
+.anuncio-posicion{
+    font-size: 10px;
+    letter-spacing: 4px;
+    margin-bottom: 12px;
+}
+.anuncio-posicion1{
+    font-size: 26px;
+}
+.anuncio-posicion2{
+    color: blue;
+    box-shadow: 0 -1px 30px 0 rgba(0,0,0,.2), 0 2px 3px 0 rgba(0,0,0,.1);
+}
+.img{
+    min-width: 580px;
+    height: 250px;
+}
+.icons{
+    font-size: 2px; 
+}
+.icons path{
+    fill: #39b54a;
+    position: absolute;
+}
